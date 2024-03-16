@@ -1,0 +1,45 @@
+
+#welcome {
+  text-align: center;
+  background-color: #b1a6a4;
+  border: 2px solid black;
+  box-shadow: 5px 10px gray;
+}
+
+
+#basic_info {
+  display: grid;
+  background-color: #e7e5d9;
+  ;
+  padding: 20px;
+  margin-top: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  /* border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 5px 10px gray;
+  margin-left: 4px;
+  margin-top: 30px;
+  margin-bottom: 30px; */
+}
+
+#basic_info dd img {
+  overflow: scroll;
+  max-width: 100%;
+  height: auto;
+}
+#basic_info a img {
+  overflow: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 800px) {
+  #basic_info dd img {
+    width: 100%;
+  }
+  
+  #basic_info a img {
+    width: 100% ;
+  } 
+}

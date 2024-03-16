@@ -1,0 +1,107 @@
+.welcome {
+  display: block;
+  text-align: center;
+  background-color: #b1a6a4;
+  margin: 0 400px ;
+  border-radius: 10px;
+}
+
+.image{
+  width: 200px;
+  height: 200px;
+}
+
+.tab{ 
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    border: 1px black solid;
+    background-color: gray;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#engineering{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  } 
+form {
+    text-align: center;
+    margin: 3px;
+    border-radius: 15%;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+#science{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#int{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+  h2:first-child {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+
+  .table th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #cecdcd;
+  }
+  
+  tbody tr:hover {
+    background-color: #d4d4d4;
+    cursor: pointer;
+  }
+  
+  #gap{
+    text-align: center;
+  }
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #link1,
+  #link2 {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  #link1:hover,
+  #link2:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  .button:active,
+  #link1:focus,
+  #link2:focus {
+    outline: none;
+  }

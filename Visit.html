@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hong Kong Industrial University">
+    <meta name="author" content="Harshini Anbazhagan"> 
+    <link rel="stylesheet" href="../css/overall.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../css/visit.css" type="text/css" media="all">
+    <title>Visit Page</title>
+</head>
+    
+<body>
+    <header>
+        <div id="HKIU_banner">
+            <div id="bannerlogo"></div>
+                <img src="images/logo.png" width="400" height="100" alt="HKIU logo" >
+            </div>
+            <div id="bannerheading">
+                <h1>Hong Kong Industrial University</h1>
+            </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a>
+            <li><a href="About.html">About</a>
+            <li><a href="Apply.html">Apply</a>
+            <li><a href="Visit.html">Visit</a>
+            <li><a href="Program.html">Program</a>
+            <li><a href="Contact.html">Contact</a>
+    
+        </ul>
+    </nav>
+    
+    <div id="welcome_block">
+        <p>We warmly welcome you to visit us at our Kowloon campus and experience our vibrant learning community. 
+            Our campus is located in the Hong Kong Kowloon High-Tech Park, where we collaborate closely with 
+            institutes of the Chinese Academy of Sciences.</p>
+
+        <p>During your visit, you can explore our world-class facilities, including the Protein Folding Science Center, 
+            Hong Kong Advanced Computing Equipment, Hong Kong Ultrafast Laser Facility, Hong Kong Electron-Positron Collider,
+            and Hong Kong Supercomputer Facility. These facilities are available to our faculty, students, 
+            and researchers worldwide.</p>
+
+        <p>You will also have the chance to meet our renowned scholars and experts from home and abroad committed to providing students 
+            with cutting-edge knowledge and skills in their respective fields. Our faculty members are recognized leaders in their fields, 
+            and their research has been published in prestigious journals such as Cell, Nature, and Science.</p>
+
+        <p>We hope you will come and visit us soon to experience firsthand the dynamic and innovative community at Hong Kong 
+            Industrial University.</p>
+    </div>
+    <main id="container">
+        <div id="map">
+            <img src="images/location.jpg" width="800" height="800" alt="loaction of HKIU">
+        </div>
+
+        <div id="location">
+            <h3>Location</h3>
+            <p>Address: Tat Chee Avenue, Kowloon, Hong Kong SAR</p>
+            <p>Tel: <a class="tel" href="Tel:(852)12345678">(852) 1234 5678</a> </p>
+            <p>Fax: <a class="fax" href="Fax:(852)87654321">(852) 8765 4321</a></p>
+            <p>Email: <a class="email" href="mailto:visit@hkiu.edu.hk">visit@hkiu.edu.hk</a></p>
+        </div>
+    </main>
+        
+            <div id="form_heading">
+            <h3>Hong Kong Industrial University is having an open day on campus! Please
+                make a reservation to visit our campus!</h3>
+            </div>
+                <div id="Booking_info">
+                    <form id="bookform" name="onlyform" action="#" onsubmit="">
+                        <fieldset id="internalform">
+                                <legend>Booking Information:</legend>
+                                <div class="formarea">
+                                    <div class="labels">
+                                        <label for="date">Date:</label>
+                                        <label for="Time">Time:</label>
+                                        <label for="visitors">No. of Visitors:</label>
+                                    </div>
+                                    <div class="formcontent">
+                                        <input class = "input-area" type="date" id="date" name="ddate">
+                                        <select class = "input-area" name="time" id="Time">
+                                            <option value="8:30-9:30am">8:30-9:30am</option>
+                                            <option value="9:30-10:30am">9:30-10:30am</option>
+                                            <option value="10:30-11:30am">10:30-11:30am</option>
+                                            <option value="1:30-2:30pm">1:30-2:30pm</option>
+                                            <option value="2:30-3:30pm">2:30-4:00pm</option>
+                                            <option value="3:30-4:30pm">4:00pm-5:00pm</option>
+                                        </select>
+                                            <input class = "input-area" type = number id="visitors" name="nnumber" min="0">
+                                    </div>
+                                </div>
+                                <p id="error_message"></p>
+                                <div class = "booking-info-form-buttons">
+                                    <div class="availibilitybutton" onclick = "check_form()">
+                                        <button id="checkavail" name="submit" type="button" >Check Availibility</button>
+                                    </div>
+                                    <div class="resetbutton" onclick = "resetform()">
+                                        <button id="resett" name="rs" type="button">Reset</button>
+                                    </div>
+                                </div>
+                                
+                        </fieldset>
+                    </form>
+                </div>
+        <footer>
+            <div id="footer">
+                <div id="logo">
+                    <img src="images/footer_logo.png" width="300" height="100" alt="HKIU footer logo" >
+                </div>
+                <p>©CityU 2023 – sources of images and text from Wikipedia and Courtesy of Icon pack by
+                Icons8 – designed by <a href="Design.html">Harshini Anbazhagan</a></p>
+            </div>
+        </footer>
+        <script src = https://personal.cs.cityu.edu.hk/~cs2204/2023/cw3cs2204.js></script>
+        <script src="../Javascript/visit.js"></script>
+</body>
+</html>

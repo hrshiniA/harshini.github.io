@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hong Kong Industrial University">
+    <meta name="author" content="Harshini Anbazhagan"> 
+    <link rel="stylesheet" href="../css/overall.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../css/design.css" type="text/css" media="all">
+    <title>Design Page</title>
+</head>
+
+<body>
+    <header>
+        <div id="HKIU_banner">
+            <div id="bannerlogo"></div>
+                <img src="images/logo.png" width="400" height="100" alt="HKIU logo" >
+            </div>
+            <div id="bannerheading">
+                <h1>Hong Kong Industrial University</h1>
+            </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a>
+            <li><a href="About.html">About</a>
+            <li><a href="Apply.html">Apply</a>
+            <li><a href="Visit.html">Visit</a>
+            <li><a href="Program.html">Program</a>
+            <li><a href="Contact.html">Contact</a>
+    
+        </ul>
+    </nav>
+    
+    <p id="welcome">Welcome to HKIU</p>
+    <h1>Design Page</h1> <br>
+
+    <div id="identification">
+        <h2>Name : Harshini Anbazhagan</h2>
+        <h2>SID : 57930171</h2> 
+    </div>
+    <br>
+        <h3>CSS</h3>
+        <div class="block">
+            <div class="dt">overall.css Page</div>
+            <div class="dd">2.</div>
+            <div class="dd">line:8 and line:9 - Used linear gradient technique in the header</div>
+            <div class="dd">3.</div>
+            <div class="dd">It is linked as an external style page</div>
+          </div>
+          
+          <div class="block">
+            <div class="dt">Home</div>
+            <div class="dd">line:5 - Added border to the welcome block using border selector</div>
+            <div class="dd">line:6 - Added shadow to the welcome block using box-shadow</div>
+            <div class="dd">line:12 - Added background color to the content block using background-color selector</div>
+            <div class="dd">line:30 to line:38 - added @media to make images responsive to screen sizes smaller than 800pxs</div>
+            <div class="dd">3.</div>
+            <div class="dd">It is linked as an external style page</div>
+          </div>
+          
+          <div class="block">
+            <div class="dt">About</div>
+            <div class="dd">2.</div>
+            <div class="dd">line:15 - Added border to the content block</div>
+            <div class="dd">line:16 - Addition of rounded borders</div>
+            <div class="dd">line:17 - Added background color to the content</div>
+            <div class="dd">3.</div>
+            <div class="dd">It is linked as an external style page</div>
+          </div>
+          
+          <div class="block">
+            <div class="dt">Apply</div>
+            <div class="dd">2.</div>
+            <div class="dd">line:15 - addition of rounded borders for the heading of each form</div>
+            <div class="dd">line:16 and line:17 - Use of gradient colors for the header of each form</div>
+            <div class="dd">line:31 - addition of border radius to each category of the separate forms</div>
+            <div class="dd">line:32 - addition of box shadow</div>
+            <div class="dd">3.</div>
+            <div class="dd">It is linked as an external style page</div>
+          </div>
+          
+          <div class="block">
+            <div class="dt">Visit</div>
+            <div class="dd">2.</div>
+            <div class="dd">line:14 - border radius given to the block containing the map to achieve rounded borders</div>
+            <div class="dd">line:34 - rounded borders given to the block containing location image</div>
+            <div class="dd">line:38 - Gave the block containing location image a shadow</div>
+            <div class="dd">line:3 - background color given to the welcome block</div>
+            <div class="dd">3.</div>
+            <div class="dd">It is linked as an external style page</div>
+          </div>
+          <br>
+          <div id="JS">
+            
+            <h2>JavaScript Techniques</h2><br>
+            <div>
+                <h3>1.Apply page</h3><br>
+
+                <h4>apply.js</h4><br>
+
+                <p>line:52 - used addEventListener to call the eventhandler(anonymous function in same line) on clicking </p>
+                <p>line:118 - used onclick(object's property) to call event handler submit() in line:121 </p>
+                <p>line:119 - used onclick(object's property) to call event handler clearBtn() in line:156</p>
+                <p>line:4 - used Map constructor to display messages of 1st, 2nd, 3rd</p>
+                <p>line:9 - used class to organize the object made through constructor method</p>
+                <p>line:18, 19 - used let keyowrd to give blockscope to variables panels and tab so that they are not altered outside the function, to give local scope </p>
+                <p>line:50, 53, 54, 55 - used let keyword to give blockscope to variables buttons,textbox,parentEl so that they are not altered outside the function, to give local scope</p>
+                <p>line:122 - used let keyword to give blockscope to variable gap so that array isn't altered outside the function, to give local scope</p>
+                <p>line:135 - give blockscope to variable gapMessage so that they are not altered outside the function, to give local scope</p>
+                <br>
+
+                <h4>Apply.html</h4><br>
+                <p>line:15 - used onload(HTML element's attribute) to call eventhandler form(1)(line:17 of apply.js) and rank(line:49 of apply.js)</p>
+                <p>line:48,49,50 - used onclick (HTML element's attribute) to call eventhandlers form(1),form(2) and form(3)(evnethandler at line:17 of apply.js)</p>
+                <br>
+            </div>
+
+            <div>
+                <h3>2.Visit page</h3><br>
+
+                <h4>visit.js</h4><br>
+                <p>line:24 - used reserve function</p>
+                <p>line:31 - used setTimeout function</p><br>
+
+                <h4>Visit.html</h4><br>
+                <p>line:95 - used onclick(HTML element's attribute) to call event handler check_form()(event handler at line:7 of visit.js)</p>
+                <p>line:98 - used onclick(HTML element's attribute) to call event handler resetform()(event handler at line:35 of visit.js) </p>
+                <br>
+            </div>
+
+            <div>
+                <h3>3.Program page</h3><br>
+
+                <h4>program.js</h4><br>
+                <p>line:12 - used setInterval function to call eventhandler random_msg(line:7)</p>
+                <p>line:22 - used addEventlistener(js object property) to call eventhandler loopvid()(line: 25)</p>
+                <p>line:35 - used window.onload(js object property) to make sure eventhandler random_msg() is called on page load(line:7)</p>
+                <br>
+            </div>
+          </div>
+
+    <footer>
+        <div id="footer">
+            <div id="logo">
+                <img src="images/footer_logo.png" width="300" height="100" alt="HKIU footer logo" >
+            </div>
+            <p>©CityU 2023 – sources of images and text from Wikipedia and Courtesy of Icon pack by
+            Icons8 – designed by <a href="Design.html">Harshini Anbazhagan</a></p>
+        </div>
+    </footer>
+</body>
+</html>

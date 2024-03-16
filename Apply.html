@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Hong Kong Industrial University">
+  <meta name="author" content="Harshini Anbazhagan"> 
+  <link rel="stylesheet" href="../css/overall.css" type="text/css" media="all">
+  <link rel="stylesheet" href="../css/apply.css" type="text/css" media="all">
+  <link rel="stylesheet" href="../css/printApply.css" type="text/css" media="print">
+  <title>Apply Page</title>
+</head>
+
+
+<body onload="form(1); rank()">
+  <header>
+    <div id="HKIU_banner">
+        <div id="bannerlogo"></div>
+            <img src="images/logo.png" width="400" height="100" alt="HKIU logo" >
+        </div>
+        <div id="bannerheading">
+            <h1>Hong Kong Industrial University</h1>
+        </div>
+</header>
+
+  <nav>
+    <ul>
+        <li><a href="Home.html">Home</a>
+        <li><a href="About.html">About</a>
+        <li><a href="Apply.html">Apply</a>
+        <li><a href="Visit.html">Visit</a>
+        <li><a href="Program.html">Program</a>
+        <li><a href="Contact.html">Contact</a>
+    </ul>
+</nav>
+
+    <div class="body">
+        <div class="null"></div>
+        <div class="content">
+            <div class="welcome">
+                <h2>Welcome to HKIU</h2>
+            </div>
+            <div class="application">
+
+                <h3>Common Application to Undergraduate Program</h3>
+
+                <div class="tabset">
+                    <div id="h1" class="tab" onclick="form(1)">College of Engineering</div>
+                    <div id="h2" class="tab" onclick="form(2)">College of Science</div>
+                    <div id="h3" class="tab" onclick="form(3)">College of Interdisciplinary Studies</div>
+                    <div class="tab-panel" id="engineering">
+                        <form action="#" method="get">
+                            <img class='image' src="images/cs.png" alt="BSc in Computer Science and Technology"><br>
+                            <label>BSc in Computer Science and Technology</label>
+                            <div>
+                                <input type="text" name="BSc in Computer Science and Technology">
+                                <input type="button" id="bsc_csat" value="rank of choice" class="button rank">
+                            </div>
+                        </form>
+
+                        <form action="#" method="get">
+                            <img class='image' src="images/ei.png" alt="BEng in Electronic Information"><br>
+                            <label>BEng in Electronic Information</label>
+                            <div><input type="text" name="BEng in Electronic Information">
+                                <input type="button" id="beng_ei" value="rank of choice" class="button rank">
+                            </div>
+                        </form>
+                        <form action="#" method="get">
+                            <img class='image' src="images/mse.png" alt="BEng in Materials Science and Engineering"><br>
+                            <label>BEng in Materials Science and Engineering</label>
+                            <div><input type="text" name="BEng in Materials Science and Engineering">
+                                <input type="button" id="beng_msae" value="rank of choice" class="button rank">
+                            </div>
+                        </form>
+                        <form action="#" method="get">
+                            <img class='image' src="images/mc.png" alt="BEng in Materials and Chemicals"><br>
+                            <label>BEng in Materials and Chemicals</label>
+                            <div><input type="text" name="BEng in Materials and Chemicals">
+                                <input type="button" id="beng_mac" value="rank of choice" class="button rank">
+                            </div>
+                        </form>
+                        <form action="#" method="get">
+                            <img class='image' src="images/est.png" alt="BSc in Electronic Science and Technology"><br>
+                            <label>BSc in Electronic Science and Technology</label>
+                            <div><input type="text" name="BSc in Electronic Science and Technology">
+                                <input type="button" id="bsc_esat" value="rank of choice" class="button rank">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-panel" id="science">
+                        <form action="#" method="get">
+                            <img class='image' src="images/phy.png" alt="BSc in Physics"><br>
+                            <label>BSc in Physics</label>
+                            <div><input type="text" name="BSc in Physics">
+                                <input type="button" id="bsc_p" value="rank of choice" class="button rank">
+                            </div>
+                        </form>
+                        <form action="#" method="get">
+                            <img class='image' src="images/chem.png" alt="BSc in Chemistry"><br>
+                            <label>BSc in Chemistry</label>
+                            <div><input type="text" name="BSc in Chemistry">
+                                <input type="button" id="bsc_c" value="rank of choice" class="button rank">
+                            </div>
+                        </form>
+                        <form action="#" method="get">
+                            <img class='image' src="images/bio.png" alt="BSc in Biology"><br>
+                            <label>BSc in Biology</label>
+                            <div><input type="text" name="BSc in Biology">
+                                <input type="button" id="bsc_b" value="rank of choice" class="button rank">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-panel" id="int">
+                        <form action="#" method="get">
+                            <img class='image' src="images/cogs.png" alt="BSc in Cognitive Science"><br>
+                            <label>BSc in Cognitive Science</label>
+                            <div><input type="text" name="BSc in Cognitive Science">
+                                <input type="button" id="bsc_cs" value="rank of choice" class="button rank">
+                            </div>
+                        </form>
+                        <form action="#" method="get">
+                            <img class='image' src="images/be.png" alt="BEng in Biomedical Engineering"><br>
+                            <label>BEng in Biomedical Engineering</label>
+                            <div><input type="text" name="BEng in Biomedical Engineering">
+                                <input type="button" id="bsc_be" value="rank of choice" class="button rank">
+                            </div>
+                        </form>
+                        <form action="#" method="get">
+                            <img class='image' src="images/bm.png" alt="BSc in Biology and Medicine"><br>
+                            <label>BSc in Biology and Medicine</label>
+                            <div><input type="text" name="BSc in Biology and Medicine">
+                                <input type="button" id="bsc_bam" value="rank of choice" class="button rank">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <div class="table">
+                <table id="resultTable">
+                    <caption>
+                        <h3>Your chosen majors:</h3>
+                        <h4 id="time">Last change time:</h4>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>College</th>
+                            <th>Major</th>
+                            <th>Rank</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>10</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+
+                    </tfoot>
+                </table>
+            </div>
+            
+            <h4 id="numOfMajors">Total number of completed choices: </h4>
+            <div class="button-container">
+              <a class="button" id="link1">submit</a>
+              <a class="button" id="link2">clear</a>
+            </div>
+            <p id="gap"></p>
+        </div>
+        <div class="null"></div>
+    </div>
+    <footer>
+      <div id="footer">
+          <div id="logo">
+              <img src="images/footer_logo.png" width="300" height="100" alt="HKIU footer logo" >
+          </div>
+          <p>©CityU 2023 – sources of images and text from Wikipedia and Courtesy of Icon pack by
+          Icons8 – designed by <a href="Design.html">Harshini Anbazhagan</a></p>
+      </div>
+  </footer>
+        <!-- <section class="sticky">
+            <div class="bubbles">
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+            </div>
+        </section> -->
+  <script src="../Javascript/apply.js"></script>
+</body>
+
+</html>

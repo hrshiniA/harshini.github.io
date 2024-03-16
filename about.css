@@ -1,0 +1,62 @@
+
+
+#bannerheading img {
+  max-width: 100%;
+  height: auto;
+}
+#info {
+  padding-left: 2px; 
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#block1 {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #e7e5d9;
+}
+
+
+caption {
+  font-weight: bold;
+  text-align: center;
+  background-color:#999;
+  margin: auto;
+}
+
+.table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.table th,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+.table tbody tr:nth-child(odd) {
+  background-color: #e7dddd;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.table thead tr th {
+  background-color: #ccc;
+}
+
+.caption, th, td {
+  text-align: center;
+}
+
+.table tbody tr:hover {
+  background-color: #716a6a;
+}
+
+
+
+
+  

@@ -1,0 +1,28 @@
+#welcome {
+    text-align: center;
+    background-color: #b1a6a4;
+  }
+
+  #identification {
+    background-color: #e7e5d9;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .block {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .dt {
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .dd {
+    margin-left: 20px;
+    list-style: decimal inside;
+  }
